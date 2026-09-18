@@ -22,7 +22,7 @@ PARFNet/
 
 ## ✅ Model Files
 
-### `parfnet_common.py`
+### 1️⃣ `parfnet_common.py`
 
 This file contains the core architecture of PARFNet.
 
@@ -38,7 +38,7 @@ The `SwinBackboneAdapter` defined in this file is responsible for adapting the S
 
 ---
 
-### `parfnet_3p.py`
+### 2️⃣ `parfnet_3p.py`
 
 This file provides the **three-phase input interface** for PARFNet.
 
@@ -48,7 +48,7 @@ Use this file when conducting experiments with three-phase inputs.
 
 ---
 
-### `parfnet_2p.py`
+### 3️⃣ `parfnet_2p.py`
 
 This file provides the **two-phase input interface** for PARFNet.
 
@@ -58,7 +58,7 @@ This version can also be used for comparative or ablation experiments with diffe
 
 ---
 
-### `swin_transformer_list.py`
+### 4️⃣ `swin_transformer_list.py`
 
 This file provides the **Swin Transformer** backbone used by PARFNet.
 
