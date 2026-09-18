@@ -2,9 +2,14 @@
 
 Official code of PARF-Net (Published at ESWA2026)
 
+## 📰 News
+- ### 2026.08 — Our work PARF-Net is accepted by Expert Systems with Applications (ESWA).
+
+---
+
 PARFNet is a deep learning model designed for multi-phase image input tasks. This repository provides the core implementation of PARFNet, including the two-phase and three-phase input interfaces, the LGAI and PARM modules, and the Swin Transformer backbone used for global feature extraction.
 
-## Project Structure
+## 👉 Project Structure
 
 ```text
 PARFNet/
@@ -15,7 +20,7 @@ PARFNet/
 └── README.md
 ```
 
-## Model Files
+## ✅ Model Files
 
 ### `parfnet_common.py`
 
@@ -82,7 +87,7 @@ SwinBackboneAdapter
  SwinTransformer
 ```
 
-## Input Settings
+## 👉 Input Settings
 
 PARFNet currently provides two input configurations.
 
@@ -104,7 +109,7 @@ parfnet_2p.py
 
 The two-phase version can also be used for comparative or ablation experiments.
 
-## Data Processing
+## 🚀 Data Processing & Environment settings.
 
 For data preprocessing, dataset organization, and related data processing procedures, please refer to the implementation provided in **CGS-Net**:
 
